@@ -1,7 +1,8 @@
 export async function GetProjects(url: string) {
-	const data = await fetch(`${process.env.SITE_URL}${url}`, {
+	const data = await fetch(`${process.env.SITE_URL!}${url}`, {
 		method: "GET",
 		cache: "no-store"
-	}).then((res) => res.json());
-	return data.projects;
+	});
+	const { projects } = await data.json();
+	return projects;
 }

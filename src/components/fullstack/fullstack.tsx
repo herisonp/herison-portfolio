@@ -4,7 +4,7 @@ import FullStackItem, { FullStackItemProps } from "./fullstack-item";
 import { GetProjects } from "@/functions/get-projects";
 
 export async function FullStack() {
-	const projects: FullStackItemProps[] = await GetProjects("/api/fullstack");
+	const projects: FullStackItemProps[] = await GetProjects("/api/fullstack/");
 	return (
 		<Section>
 			<Container size={"3"} px={"3"}>

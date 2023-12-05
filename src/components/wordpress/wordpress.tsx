@@ -4,7 +4,7 @@ import WordpressItem, { WordpressItemProps } from "./wordpress-item";
 import { GetProjects } from "@/functions/get-projects";
 
 export async function Wordpress() {
-	const projects: WordpressItemProps[] = await GetProjects("/api/wordpress");
+	const projects: WordpressItemProps[] = await GetProjects("/api/wordpress/");
 	return (
 		<Section py={"3"}>
 			<Container size={"3"} px={"3"}>
