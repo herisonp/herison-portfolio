@@ -17,6 +17,8 @@ const projects = [
 	}
 ];
 
+export const runtime = "nodejs";
+
 export async function GET(req: NextRequest) {
 	return NextResponse.json({ projects });
 }
