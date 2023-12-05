@@ -30,6 +30,12 @@ Como sempre curti design, não pude deixar de criar um layout totalmente do zero
 
 Espero que goste! 👉 [ver online](https://herisonpereira.vercel.app)
 
+## Melhorias futuras
+
+- Adicionar integração com algum CMS, como o Hygraph, para gerenciar os conteúdos
+- Criar animações e transições nos elementos em tela
+- Adicionar mais informações sobre minha carreira profissional
+
 ## Getting Started
 
 Primeiro, inicie o servidor de desenvolvimento:
