@@ -1,10 +1,10 @@
 import { InfoCircledIcon } from "@radix-ui/react-icons";
 import { Container, Section, Heading, Box, Flex, Text } from "@radix-ui/themes";
-import FullStackItem, { FullStackItemProps } from "./fullstack-item";
-import { getProjects } from "@/functions/get-projects";
+import { FullStackItem } from "./fullstack-item";
+import { getFullstackProjects } from "@/functions/get-fullstack-projects";
 
 export async function FullStack() {
-	const projects: FullStackItemProps[] = await getProjects("/fullstack");
+	const projects = await getFullstackProjects();
 	return (
 		<Section>
 			<Container size={"3"} px={"3"}>

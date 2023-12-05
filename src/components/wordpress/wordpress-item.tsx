@@ -9,11 +9,7 @@ export interface WordpressItemProps {
 	image: string;
 }
 
-export default function WordpressItem({
-	project
-}: {
-	project: WordpressItemProps;
-}) {
+export function WordpressItem({ project }: { project: WordpressItemProps }) {
 	return (
 		<li>
 			<HoverCard.Root>

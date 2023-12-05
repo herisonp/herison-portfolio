@@ -24,9 +24,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Site desenvolvido para servir como repositório de fácil acesso para meus principais projetos autoriais.
 
-Maior desafio que encontrei aqui foi trabalhar com os components do Radix, visto que ainda não tinha utilizado. Apesar de estar utilizando chamadas API com fetch do Nextjs, não estou trabalhando com um banco de dados, mas quis simular como se tivesse, para uma melhoria futura não precisar refatorar tanto o código.
+Maior desafio que encontrei aqui foi trabalhar com os components do Radix, visto que ainda não tinha utilizado.
 
-Como sempre curti o design, não pude deixar de criar um layout totalmente do zero. Vale ressaltar que utilizei o style guide do próprio Radix para criar o layout no Figma, isso poupou bastante tempo de criação e do desenvolvimento, possibilitando fazer todo o processo de layout e desenvolvimento em apenas 1 dia 🎈.
+Como sempre curti design, não pude deixar de criar um layout totalmente do zero. Vale ressaltar que utilizei o style guide do próprio Radix para criar o layout no Figma, isso poupou bastante tempo de criação e do desenvolvimento, possibilitando fazer todo o processo de layout e desenvolvimento em apenas 1 dia 🎈.
 
 Espero que goste! 👉 [ver online](https://herisonpereira.vercel.app)
 

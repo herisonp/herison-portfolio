@@ -18,11 +18,7 @@ export interface FullStackItemProps {
 	link: string;
 }
 
-export default function FullStackItem({
-	project
-}: {
-	project: FullStackItemProps;
-}) {
+export function FullStackItem({ project }: { project: FullStackItemProps }) {
 	return (
 		<Card
 			size="3"
