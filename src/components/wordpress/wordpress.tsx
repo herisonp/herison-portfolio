@@ -1,10 +1,10 @@
 import { InfoCircledIcon } from "@radix-ui/react-icons";
 import { Container, Section, Heading, Box, Flex, Text } from "@radix-ui/themes";
 import WordpressItem, { WordpressItemProps } from "./wordpress-item";
-import { GetProjects } from "@/functions/get-projects";
+import { getProjects } from "@/functions/get-projects";
 
 export async function Wordpress() {
-	const projects: WordpressItemProps[] = await GetProjects("/api/wordpress/");
+	const projects: WordpressItemProps[] = await getProjects("/wordpress");
 	return (
 		<Section py={"3"}>
 			<Container size={"3"} px={"3"}>
