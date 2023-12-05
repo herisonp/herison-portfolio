@@ -18,6 +18,7 @@ const projects = [
 ];
 
 export const runtime = "nodejs";
+export const fetchCache = "force-cache";
 
 export async function GET(req: NextRequest) {
 	return NextResponse.json({ projects });
