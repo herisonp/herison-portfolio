@@ -1,13 +1,13 @@
-import { ArrowTopRightIcon } from "@radix-ui/react-icons";
+import { ArrowTopRightIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import {
-	Box,
 	Heading,
 	Text,
 	Button,
 	Flex,
 	Grid,
 	Card,
-	Inset
+	Inset,
+	Link as LinkRadix
 } from "@radix-ui/themes";
 import Image from "next/image";
 
@@ -16,6 +16,7 @@ export interface FullStackItemProps {
 	description: string;
 	image: string;
 	link: string;
+	repository: string;
 }
 
 export function FullStackItem({ project }: { project: FullStackItemProps }) {
@@ -63,15 +64,21 @@ export function FullStackItem({ project }: { project: FullStackItemProps }) {
 					<Text as="p" size="2">
 						{project.description}
 					</Text>
-					<Button
-						variant="solid"
-						style={{ display: "flex", width: "fit-content" }}
-						asChild
-					>
-						<a href={project.link} target="_blank">
-							Ver online <ArrowTopRightIcon />
+					<Flex gap={"4"} wrap={"wrap"}>
+						<Button variant="solid" asChild>
+							<a href={project.link} target="_blank">
+								Ver online <ArrowTopRightIcon />
+							</a>
+						</Button>
+						<a
+							href={project.repository}
+							target="_blank"
+							className="flex gap-2 items-center opacity-70 hover:opacity-100 transition-opacity"
+						>
+							<GitHubLogoIcon />
+							Repositório
 						</a>
-					</Button>
+					</Flex>
 				</Flex>
 			</Grid>
 		</Card>
