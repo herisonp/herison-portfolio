@@ -14,7 +14,7 @@ const fullstack: FullStackItemProps[] = [
 		description:
 			"Sou aluno de desenvolvimento web na TripleTen. E este foi um desafio proposto por Luiza Costa, nossa gestora de carreira, para desenvolver any com o tema sobre a melhor soft skill, com um prazo de 7 dias. Resolvi criar uma landing page descrevendo a soft skill, e como tecnologia utilzei React, Nextjs e Tailwindcss.",
 		image: "https://herisonpereira.com.br/dev/imgs/fullstack/cover-01.jpg",
-		link: "https://soft-skill-t10.vercel.app/",
+		link: "https://softskill-herison.vercel.app/",
 		repository: "https://github.com/herisonp/soft-skill-tripleten"
 	}
 ];
