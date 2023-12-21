@@ -50,7 +50,7 @@ export function Header() {
 						quality={100}
 						width={360}
 						height={360}
-						className="w-full xs:max-w-[200px] h-auto shrink-0 rounded-2xl object-cover"
+						className="w-full xs:max-w-[200px] h-auto shrink-0 rounded-2xl object-cover border-2 border-white"
 					/>
 
 					<Flex gap={"4"} direction={"column"}>
