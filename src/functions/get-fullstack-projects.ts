@@ -4,7 +4,7 @@ const fullstack: FullStackItemProps[] = [
 	{
 		title: 'ProbaSorte',
 		description:
-			'Projeto de desafio do Hackathon - Luck or Misfortune do Bootcamp da TripleTen. ProbaSorte é um aplicativo web para sugerir sequências de jogos na Mega Sena, baseado em estatísticas ou em seus amuletos.',
+			'Projeto campeão do Hackathon - Luck or Misfortune do Bootcamp da TripleTen. ProbaSorte é um aplicativo web para sugerir sequências de jogos na Mega Sena, baseado em estatísticas ou em seus amuletos.',
 		image: 'https://herisonpereira.com.br/dev/imgs/fullstack/cover-03.jpg',
 		link: 'https://probasorte.vercel.app/',
 		repository: 'https://github.com/herisonp/ProbaSorte'
