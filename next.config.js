@@ -8,12 +8,6 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
-      {
-        protocol: "https",
-        hostname: "lp.idiomus.com",
-        port: "",
-        pathname: "/**",
-      },
     ],
   },
 };
